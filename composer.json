@@ -1,0 +1,28 @@
+{
+    "name": "ilsenem/matcher",
+    "type": "library",
+    "description": "Array schema matcher",
+    "homepage": "https://github.com/ilsenem/matcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Nemytchenko",
+            "email": "ilya.nemytchenko@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "kahlan/kahlan": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matcher\\": "src/Matcher/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spec\\Matcher\\": "spec/Matcher/"
+        }
+    }
+}

@@ -142,7 +142,7 @@ class Schema
             $actualValueType = gettype($value);
 
             if ($actualKeyType !== $expectedKeyType || $actualValueType !== $expectedValueType) {
-                $this->errors[$path][static::ERR_TYPE_MISMATCH] = "The кey and value must be of type '${expectedKeyType} => ${expectedValueType}'.";
+                $this->errors[$path][static::ERR_TYPE_MISMATCH] = "The key and value must be of type '${expectedKeyType} => ${expectedValueType}'.";
 
                 continue;
             }
